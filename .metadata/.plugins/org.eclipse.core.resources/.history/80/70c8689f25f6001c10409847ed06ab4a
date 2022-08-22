@@ -1,0 +1,64 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main { // todo código vai estar dentro da classe Main.
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*String produto1="computador";
+		String produto2="Office desk";
+		
+		int ano= 30;
+		int code= 5290;
+		char gender ='F';
+		
+		double preco1=2100;
+		double preco2=650.50;
+		double measure= 53.6398;
+		
+		
+		
+		System.out.println("Produtos:");
+		System.out.printf("%s, tem o preço de R$ %.2f %n",produto1,preco1);
+		System.out.printf("%s , tem o preço de R$ %.2f %n",produto2,preco2);
+		System.out.println("Record:");
+		System.out.printf("%d anos, code %d e descrição: %s%n",ano,code,gender);
+		
+		System.out.println("\n teste com ponto e vírgural");
+		System.out.printf("%f",measure);
+		Locale.setDefault(Locale.US);
+		System.out.printf("Us decimal point: %.4f",measure);*/
+		
+		/*int a,b;
+		double resultado;
+		
+		a= 5;
+		b = 2;
+		
+		resultado= (double)a/b; // convertendo o valor do resultado para double.
+		
+	System.out.println(resultado); */
+		
+		Scanner teclado= new Scanner(System.in);
+		
+		
+		String x;
+		x=teclado.next(); // nextInt(), nextDouble();,sc.next().charAt(0);
+		System.out.println("Voce digitou: "+x);
+		
+		double y;
+		y= teclado.nextDouble();
+		System.out.println("Voce digitou: "+ y); // se eu colocar com . vai dar erro,pois o teclado está na escrita português.
+		System.out.printf("Voce digitou: %.2f%n",y); // imprimir com a vírgula.
+	
+		char z;
+		z=teclado.next().charAt(0);
+		System.out.println("voce digitou: "+ z);
+		
+		
+		
+		
+
+	}
+
+}

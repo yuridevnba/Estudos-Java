@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;taxaCambio&apos; in &apos;entities.SavingsAccount&apos; to &apos;taxaJuros&apos;&#x0D;&#x0A;- Original project: &apos;Herança1contato&apos;&#x0D;&#x0A;- Original element: &apos;entities.SavingsAccount.taxaCambio&apos;&#x0D;&#x0A;- Renamed element: &apos;entities.SavingsAccount.taxaJuros&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;taxaCambio&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;entities{SavingsAccount.java[SavingsAccount^taxaCambio" name="taxaJuros" references="true" setter="false" stamp="1659029687643" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,39 @@
+
+public class Main { // todo código vai estar dentro da classe Main.
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String produto1="computador";
+		String produto2="Office desk";
+		
+		int ano= 30;
+		int code= 5290;
+		char gender ='F';
+		
+		double preco1=2100;
+		double preco2=650.50;
+		double measure= 53.6398;
+		
+		
+		
+		System.out.println("Produtos:");
+		System.out.printf("%s, tenho o preço de R$ %f ",produto1,preco1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,86 @@
+package entities;
+
+public class Banco {
+
+	private double taxa=5.00;
+	
+	private double conta;
+	private String nome;
+	private double valorInicial;
+	
+	
+	
+	
+	
+	
+	
+	public Banco(double conta, String nome) {
+		//super();
+		this.conta = conta;
+		this.nome = nome;
+		//this.valorInical = valorInical;
+	}
+	
+	public Banco(double conta, String nome, double valorInicial) {
+		//super();
+		this.conta = conta;
+		this.nome = nome;
+		//this.valorInicial = valorInicial;
+		Depositos(valorInicial);
+	}
+	
+	
+	
+	
+	
+	
+	
+	public Banco() { // constructor padrão....
+		// TODO Auto-generated constructor stub
+	}
+
+	public double Depositos(double depositos) {
+		return valorInicial+=depositos;
+	}
+
+	public double Saques (double saques) {
+		return valorInicial-=(saques+taxa);
+	}
+	
+	
+	
+	
+	
+	
+	
+	public double getConta() {
+		return conta;
+	}
+
+	//public void setConta(double conta) {
+		//this.conta = conta;
+	//}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getValorInical() {
+		return valorInicial;
+	}
+	public String toString() {
+		return "ACCOUNT "
+				+conta
+		+ ", HOLDER: "+nome
+		+", BALANCE: $ "
+		+"%.2d%n"+valorInicial;
+	}
+
+	//public void setValorInical(double valorInical) {
+		//this.valorInical = valorInical;
+	//}
+}

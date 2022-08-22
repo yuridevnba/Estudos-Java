@@ -1,0 +1,2 @@
+module ExercicioComposição {
+}

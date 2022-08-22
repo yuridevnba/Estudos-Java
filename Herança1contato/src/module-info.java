@@ -1,0 +1,2 @@
+module Herança1contato {
+}

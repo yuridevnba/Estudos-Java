@@ -1,0 +1,8 @@
+package Enums;
+
+public enum Enum1 {
+	PENDING_PAYMENT, // CONJUNTO DE CONSTANTES.
+	 PROCESSING,
+	 SHIPPED,
+	 DELIVERED,
+}

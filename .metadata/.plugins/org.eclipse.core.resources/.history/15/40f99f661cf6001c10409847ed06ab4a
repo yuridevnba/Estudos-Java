@@ -1,0 +1,43 @@
+
+public class Main { // todo código vai estar dentro da classe Main.
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String produto1="computador";
+		String produto2="Office desk";
+		
+		int ano= 30;
+		int code= 5290;
+		char gender ='F';
+		
+		double preco1=2100;
+		double preco2=650.50;
+		double measure= 53.6398;
+		
+		
+		
+		System.out.println("Produtos:");
+		System.out.printf("%s, tem o preço de R$ %.2f %n",produto1,preco1);
+		System.out.printf("%s , tem o preço de R$ %.2f %n",produto2,preco2);
+		System.out.println("Record:");
+		System.out.printf("%d anos, code %d e descrição: %s%n",ano,code,gender);
+		
+		System.out.println("\n teste com ponto e vírgural");
+		System.out.printf("%f",measure);
+		System.out.printf("Us decimal point: %2.f");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

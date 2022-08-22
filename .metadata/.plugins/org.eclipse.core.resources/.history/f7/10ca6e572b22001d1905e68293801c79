@@ -1,0 +1,17 @@
+package devices;
+
+public class ConcretScanner extends Device {
+	
+	public ConcretScanner(String serialNumber) {
+		super(serialNumber);
+	}
+
+	@Override  // sobreescrever
+	public void processDoc(String doc) {
+		System.out.println("Scanner processing: " + doc);
+	}
+
+	public String scan() {
+		return "Scanned content";
+	}
+}
