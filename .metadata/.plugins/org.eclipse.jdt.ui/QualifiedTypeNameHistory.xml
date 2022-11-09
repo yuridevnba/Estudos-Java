@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="entities.Product1"/>
-    <fullyQualifiedTypeName name="entities.Banco"/>
-    <fullyQualifiedTypeName name="entities.PessoasAltura"/>
-    <fullyQualifiedTypeName name="entities.project"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="entities.Listaex1"/>
-    <fullyQualifiedTypeName name="application.Date"/>
-    <fullyQualifiedTypeName name="entities.Order"/>
-    <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="entities.Worker"/>
-    <fullyQualifiedTypeName name="entities.HourContract"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.time.LocalTime"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.text.Format"/>
     <fullyQualifiedTypeName name="entities.Armazemcpo"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -35,8 +16,6 @@
     <fullyQualifiedTypeName name="entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
     <fullyQualifiedTypeName name="entities.Enums.Color"/>
-    <fullyQualifiedTypeName name="entities.Shape"/>
-    <fullyQualifiedTypeName name="entities.Rectangle"/>
     <fullyQualifiedTypeName name="entities.Circle"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="model.entities.Reservation"/>
@@ -48,11 +27,8 @@
     <fullyQualifiedTypeName name="model.exceptions.ErroConta"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="model.entities.Invoice"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="model.entities.Vehicle"/>
     <fullyQualifiedTypeName name="model.services.RentalService"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -60,4 +36,28 @@
     <fullyQualifiedTypeName name="model.services.TaxService"/>
     <fullyQualifiedTypeName name="model.services.BrazilTaxService"/>
     <fullyQualifiedTypeName name="model.enums.Color"/>
+    <fullyQualifiedTypeName name="application.BrazilInterestService"/>
+    <fullyQualifiedTypeName name="services.InterestService"/>
+    <fullyQualifiedTypeName name="model.entities.Fatura"/>
+    <fullyQualifiedTypeName name="model.enums.Estado"/>
+    <fullyQualifiedTypeName name="model.entities.Alocação"/>
+    <fullyQualifiedTypeName name="model.entities.Instrumentos"/>
+    <fullyQualifiedTypeName name="model.service.GeradoraFatura"/>
+    <fullyQualifiedTypeName name="model.service.ZumbiInstrumentos"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="DefatultMethodsEntities.BrazilInterestService"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="application.PrintService"/>
+    <fullyQualifiedTypeName name="entities.PrintService"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entities.Assistente"/>
+    <fullyQualifiedTypeName name="entities.AssistenteAdm"/>
+    <fullyQualifiedTypeName name="entities.Rectangle"/>
+    <fullyQualifiedTypeName name="entities.Shape"/>
 </qualifiedTypeNameHistroy>

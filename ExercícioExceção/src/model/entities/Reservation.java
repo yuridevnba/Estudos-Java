@@ -22,7 +22,7 @@ public Reservation(Integer rooNumber, Date checkIn, Date checkOut) {
 	 }
 	this.rooNumber = rooNumber;
 	this.checkIn = checkIn;
-	this.checkOut = checkOut;
+	this.checkOut = checkOut;o
 }
 
 
@@ -63,7 +63,7 @@ public Date getCheckOut() {
 
  public long duration() {
 	 long diff=checkOut.getTime()-checkIn.getTime(); // gettime retorna em milisegundo.
-	return  TimeUnit.DAYS.convert(diff,TimeUnit.MILLISECONDS); // converte o diff que estaa em milliseconds para dias.
+	return  TimeUnit.DAYS.convert(diff,TimeUnit.MILLISECONDS); // converte o diff que esta em milliseconds para dias.
  }
 public void updateDates(Date checkIn,Date checkOut) { 
 		//throws DomainException { // deixou de ser String, voltou a ser void, agora o método updatedate pode lançar uma exceção, com o throws domainexception.

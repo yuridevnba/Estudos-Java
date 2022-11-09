@@ -8,10 +8,10 @@ public class ConcretPrinter extends Device implements Printer{
 
 	@Override
 	public void processDoc(String doc) {
-		System.out.println("Printer processing: " + doc);
+		System.out.println("vem de Device(processDoc) " + doc);
 	}
     @Override
 	public void print(String doc) {
-		System.out.println("Printing: " + doc);
+		System.out.println("vem da InterfacePrint(print) " + doc);
 	}
 }

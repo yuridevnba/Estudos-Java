@@ -8,10 +8,10 @@ public class ConcretScanner extends Device implements Scanner{
 
 	@Override  // sobreescrever
 	public void processDoc(String doc) {
-		System.out.println("Scanner processing: " + doc);
+		System.out.println("Scanner, vem de DEVICE(processDOC): " + doc);
 	}
     @Override
 	public String scan() {
-		return "Scanned content";
+		return "Scanned, vem da Interface Scanner(scan) ";
 	}
 }
